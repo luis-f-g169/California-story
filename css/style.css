@@ -560,11 +560,14 @@ main {
     display: none;
 }
 
-.subtrail img{
-width: 100%;
-height:100%;
-object-fit: cover;
-border-radius: 10px;
+.story-snippet img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    /* keeps a consistent box shape */
+    object-fit: cover;
+    /* crops without stretching */
+    border-radius: 0.75rem;
 }
 
 /* story cards + shapes */
