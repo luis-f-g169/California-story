@@ -472,11 +472,8 @@ main {
     content: "";
     position: absolute;
 
-    /* 👇 move the dot LEFT so it sits on the main line */
     left: -1.6rem;
-    /* try -1.6rem; you can tweak to -1.5 or -1.7 if needed */
     top: 0.75rem;
-    /* vertical position next to the header */
 
     width: 16px;
     height: 16px;
@@ -616,16 +613,12 @@ main {
     pointer-events: none;
 }
 
-/* all “shape” variants now look the same square/rectangle */
 .shape-pill,
 .shape-angled,
 .shape-tab {
     border-radius: 0.9rem;
-    /* same as .story-card */
     clip-path: none;
-    /* remove angled corner effect */
     border-top-width: 1px;
-    /* remove the thicker tab line if you want */
 }
 
 .story-tag {
