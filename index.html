@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>California Opportunity Trail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="gradient-orbit orbit-1"></div>
+    <div class="gradient-orbit orbit-2"></div>
+    <div class="gradient-orbit orbit-3"></div>
+
+    <div class="page">
+        <header>
+            <div class="brand">
+                <div class="brand-mark" aria-hidden="true">
+                    <div class="brand-flag-band flag-mx"></div>
+                    <div class="brand-flag-band flag-us"></div>
+                </div>
+                <div class="brand-text">
+                    <div class="brand-title">California Opportunity Trail</div>
+                    <div class="brand-tagline">One main path, many side paths</div>
+                </div>
+            </div>
+
+            <nav>
+                <a href="#trail">Trail</a>
+                <a href="#legend">Legend</a>
+                <a href="#about">Artist Statement</a>
+                <a href="#trail" class="primary-link">Start Walking</a>
+            </nav>
+        </header>
+
+        <main>
+            <!-- LEFT: HERO / INTRO -->
+            <section class="hero">
+                <div class="hero-label">
+                    <span class="hero-label-dot"></span>
+                    <span>California storytelling project · Opportunities</span>
+                </div>
+
+                <h1 class="hero-title">
+                    A <span>never-ending trail</span> of opportunities in California.
+                </h1>
+
+                <p class="hero-subtitle">
+                    My parents immigrated from Mexico to California in search of better
+                    opportunities. This site turns that idea into a visual trail: one
+                    main path (California) with side paths branching into key
+                    opportunities that shaped who I am.
+                </p>
+
+                <section id="legend" class="legend">
+                    <h2 class="legend-title">Trail Legend</h2>
+                    <div class="legend-row">
+                        <div class="legend-item">
+                            <span class="legend-marker main"></span>
+                            <span>Main path = California itself.</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-marker sub"></span>
+                            <span>Sub-trail = one opportunity I had here.</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-marker glow"></span>
+                            <span>Glow = moments that changed my direction.</span>
+                        </div>
+                    </div>
+                </section>
+
+                <p class="hero-footer-note">
+                    Scroll down to follow the path. Each stop unfolds in chronological
+                    order&mdash;from early chances my family took, to my current path as
+                    a Computer Science major, and the futures I’m still walking toward.
+                </p>
+            </section>
+
+            <!-- RIGHT: PATH WITH SUB-TRAILS -->
+            <section class="trail-card" id="trail" aria-label="Story trail">
+                <div class="trail-header">
+                    <h2 class="trail-title">Main Path: California as a Line of Opportunities</h2>
+                    <div class="trail-meta">
+                        Click each glowing stop to reveal its sub-trails.
+                    </div>
+                </div>
+                <p class="trail-desc">
+                    The vertical line represents California, stretching “north” as you
+                    scroll. Each glowing node is a moment where a new opportunity branched
+                    off&mdash;school, language, tech, and community. Sub-trails show how
+                    those moments connect to who I am today.
+                </p>
+
+                <div class="trail">
+                    <!-- NODE 1 -->
+                    <div class="trail-node">
+                        <button class="node-header" data-target="subtrail-1" aria-expanded="false">
+                            <div class="node-main">
+                                <span class="node-title">College</span>
+                                <span class="node-sub">
+                                    The first big risk: immigrating to California and starting from zero.
+                                </span>
+                            </div>
+                            <span class="node-chevron" aria-hidden="true">▶</span>
+                        </button>
+
+                        <div id="subtrail-1" class="subtrail" hidden>
+                            <article class="story-card shape-pill">
+                                <div class="story-tag">Sub-trail 1.1</div>
+                                <div class="story-title">Why California?</div>
+                                <p class="story-snippet">
+                                    My parents’ decision to leave Mexico and choose California as
+                                    “the place of opportunity”&mdash;what they hoped for, what
+                                    they feared, and what they told me growing up.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Migration &amp; risk</span>
+                                    <span>Form: Family narrative</span>
+                                </div>
+                            </article>
+
+                            <article class="story-card shape-angled">
+                                <div class="story-tag">Sub-trail 1.2</div>
+                                <div class="story-title">Learning to read the map</div>
+                                <p class="story-snippet">
+                                    Early memories of school, language, and being told to “go for
+                                    every opportunity” even when it was uncomfortable or scary.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Education</span>
+                                    <span>Form: Short vignette</span>
+                                </div>
+                            </article>
+
+                            <article class="story-card shape-tab">
+                                <div class="story-tag">Sub-trail 1.3</div>
+                                <div class="story-title">Two flags, one kid</div>
+                                <p class="story-snippet">
+                                    How holding both Mexico and the U.S. in my identity became
+                                    the starting point for how I see California and opportunity.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Belonging</span>
+                                    <span>Form: Reflection</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- NODE 2 -->
+                    <div class="trail-node">
+                        <button class="node-header" data-target="subtrail-2" aria-expanded="false">
+                            <div class="node-main">
+                                <span class="node-title">HighSchool</span>
+                                <span class="node-sub">
+                                    Opportunities that nudged me toward computers, logic, and problem-solving.
+                                </span>
+                            </div>
+                            <span class="node-chevron" aria-hidden="true">▶</span>
+                        </button>
+
+                        <div id="subtrail-2" class="subtrail" hidden>
+                            <article class="story-card shape-pill">
+                                <div class="story-tag">Sub-trail 2.1</div>
+                                <div class="story-title">The first coding class</div>
+                                <p class="story-snippet">
+                                    The moment I realized that writing code could be more than a
+                                    class requirement&mdash;it could be a path.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Discovery</span>
+                                    <span>Form: Scene description</span>
+                                </div>
+                            </article>
+
+                            <article class="story-card shape-angled">
+                                <div class="story-tag">Sub-trail 2.2</div>
+                                <div class="story-title">Saying yes (and failing sometimes)</div>
+                                <p class="story-snippet">
+                                    Joining clubs, trying competitions, and learning that going
+                                    for every opportunity doesn’t always mean “winning,” but it
+                                    always means moving.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Risk &amp; growth</span>
+                                    <span>Form: Micro-essays</span>
+                                </div>
+                            </article>
+
+                            <article class="story-card shape-tab">
+                                <div class="story-tag">Sub-trail 2.3</div>
+                                <div class="story-title">Making sense of “global”</div>
+                                <p class="story-snippet">
+                                    Seeing how California is connected to the rest of the world:
+                                    tech, migration, and culture moving in and out all the time.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Globalization</span>
+                                    <span>Form: Short analysis</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- NODE 3 -->
+                    <div class="trail-node">
+                        <button class="node-header" data-target="subtrail-3" aria-expanded="false">
+                            <div class="node-main">
+                                <span class="node-title">COVID</span>
+                                <span class="node-sub">
+                                    Turning opportunity into a main path: my CS journey and what comes next.
+                                </span>
+                            </div>
+                            <span class="node-chevron" aria-hidden="true">▶</span>
+                        </button>
+
+                        <div id="subtrail-3" class="subtrail" hidden>
+                            <article class="story-card shape-pill">
+                                <div class="story-tag">Sub-trail 3.1</div>
+                                <div class="story-title">California as a career launchpad</div>
+                                <p class="story-snippet">
+                                    How studying Computer Science here feels like the biggest
+                                    opportunity so far&mdash;one that keeps opening new side paths.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Work &amp; future</span>
+                                    <span>Form: Personal essay</span>
+                                </div>
+                            </article>
+
+                            <article class="story-card shape-angled">
+                                <div class="story-tag">Sub-trail 3.2</div>
+                                <div class="story-title">Not just technical</div>
+                                <p class="story-snippet">
+                                    Building this website as a creative experiment: using design,
+                                    color, and metaphor instead of staying only in the logical
+                                    or technical lane.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Creativity</span>
+                                    <span>Form: Process note</span>
+                                </div>
+                            </article>
+
+                            <article class="story-card shape-tab">
+                                <div class="story-tag">Sub-trail 3.3</div>
+                                <div class="story-title">Trails I haven’t walked yet</div>
+                                <p class="story-snippet">
+                                    A space to name possible futures&mdash;jobs, cities, projects&mdash;
+                                    that branch out from this main path, even if I’m not sure
+                                    which ones I’ll take yet.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Imagination</span>
+                                    <span>Form: Future-tense reflection</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                <!-- NODE 4-->
+                    <div class="trail-node">
+                        <button class="node-header" data-target="subtrail-4" aria-expanded="false">
+                            <div class="node-main">
+                                <span class="node-title">Middle School</span>
+                                <span class="node-sub">
+                                    Turning opportunity into a main path: my CS journey and what comes next.
+                                </span>
+                            </div>
+                            <span class="node-chevron" aria-hidden="true">▶</span>
+                        </button>
+
+                        <div id="subtrail-4" class="subtrail" hidden>
+                            <article class="story-card shape-pill">
+                                <div class="story-tag">Sub-trail 3.1</div>
+                                <div class="story-title">California as a career launchpad</div>
+                                <p class="story-snippet">
+                                    How studying Computer Science here feels like the biggest
+                                    opportunity so far&mdash;one that keeps opening new side paths.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Work &amp; future</span>
+                                    <span>Form: Personal essay</span>
+                                </div>
+                            </article>
+
+                            <article class="story-card shape-angled">
+                                <div class="story-tag">Sub-trail 3.2</div>
+                                <div class="story-title">Not just technical</div>
+                                <p class="story-snippet">
+                                    Building this website as a creative experiment: using design,
+                                    color, and metaphor instead of staying only in the logical
+                                    or technical lane.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Creativity</span>
+                                    <span>Form: Process note</span>
+                                </div>
+                            </article>
+
+                            <article class="story-card shape-tab">
+                                <div class="story-tag">Sub-trail 3.3</div>
+                                <div class="story-title">Trails I haven’t walked yet</div>
+                                <p class="story-snippet">
+                                    A space to name possible futures&mdash;jobs, cities, projects&mdash;
+                                    that branch out from this main path, even if I’m not sure
+                                    which ones I’ll take yet.
+                                </p>
+                                <div class="story-meta">
+                                    <span>Theme: Imagination</span>
+                                    <span>Form: Future-tense reflection</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                <!-- NODE 5-->
+                <div class="trail-node">
+                    <button class="node-header" data-target="subtrail-5" aria-expanded="false">
+                        <div class="node-main">
+                            <span class="node-title">Elmentary School</span>
+                            <span class="node-sub">
+                                Turning opportunity into a main path: my CS journey and what comes next.
+                            </span>
+                        </div>
+                        <span class="node-chevron" aria-hidden="true">▶</span>
+                    </button>
+
+                    <div id="subtrail-5" class="subtrail" hidden>
+                        <article class="story-card shape-pill">
+                            <div class="story-tag">Sub-trail 3.1</div>
+                            <div class="story-title">California as a career launchpad</div>
+                            <p class="story-snippet">
+                                How studying Computer Science here feels like the biggest
+                                opportunity so far&mdash;one that keeps opening new side paths.
+                            </p>
+                            <div class="story-meta">
+                                <span>Theme: Work &amp; future</span>
+                                <span>Form: Personal essay</span>
+                            </div>
+                        </article>
+
+                        <article class="story-card shape-angled">
+                            <div class="story-tag">Sub-trail 3.2</div>
+                            <div class="story-title">Not just technical</div>
+                            <p class="story-snippet">
+                                Building this website as a creative experiment: using design,
+                                color, and metaphor instead of staying only in the logical
+                                or technical lane.
+                            </p>
+                            <div class="story-meta">
+                                <span>Theme: Creativity</span>
+                                <span>Form: Process note</span>
+                            </div>
+                        </article>
+
+                        <article class="story-card shape-tab">
+                            <div class="story-tag">Sub-trail 3.3</div>
+                            <div class="story-title">Trails I haven’t walked yet</div>
+                            <p class="story-snippet">
+                                A space to name possible futures&mdash;jobs, cities, projects&mdash;
+                                that branch out from this main path, even if I’m not sure
+                                which ones I’ll take yet.
+                            </p>
+                            <div class="story-meta">
+                                <span>Theme: Imagination</span>
+                                <span>Form: Future-tense reflection</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="about">
+            <span>
+                This one-page site is designed so the main trail feels like it never
+                ends. As you scroll “north,” sub-trails branch out into specific
+                opportunities that California has given me&mdash;visually connecting
+                migration, globalization, storytelling, and my future in Computer Science.
+            </span>
+        </footer>
+    </div>
+
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
